@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<title>Collin Harmon — Sports Anchor & Host</title>
+<title>Collin Harmon — Sports Broadcaster</title>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -89,6 +89,21 @@ footer{background:var(--black);text-align:center;padding:1.75rem;font-family:'Ba
   .slot-nba{grid-row:span 1}
   .photo-slot{height:160px}
 }
+
+/* YOUTUBE BANNER */
+.yt-banner{position:relative;z-index:99;background:var(--accent);display:flex;align-items:center;justify-content:center;gap:1.5rem;padding:0.6rem 1.5rem;flex-wrap:wrap}
+.yt-banner-text{font-family:'Barlow Condensed',sans-serif;font-size:14px;letter-spacing:0.08em;color:rgba(255,255,255,0.92)}
+.yt-banner-text strong{color:#fff}
+.yt-banner-btn{font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:var(--accent);background:#fff;padding:4px 14px;border-radius:2px;text-decoration:none;white-space:nowrap;transition:opacity 0.2s}
+.yt-banner-btn:hover{opacity:0.85}
+
+/* HERO YT LINK */
+.hero-yt{margin-top:-1.5rem;margin-bottom:2.5rem}
+.hero-yt a{font-family:'Barlow Condensed',sans-serif;font-size:13px;letter-spacing:0.12em;color:rgba(255,255,255,0.4);text-decoration:none;transition:color 0.2s}
+.hero-yt a:hover{color:var(--accent)}
+
+/* CONTACT SUB 2 */
+.contact-sub-2{margin-top:-1.5rem}
 </style>
 </head>
 <body>
@@ -102,10 +117,15 @@ footer{background:var(--black);text-align:center;padding:1.75rem;font-family:'Ba
   </ul>
 </nav>
 
+<div class="yt-banner">
+  <span class="yt-banner-text">Now on YouTube — <strong>Collin Harmon Sports</strong>. New episodes every week.</span>
+  <a href="https://www.youtube.com/@CollinHarmonSports" target="_blank" rel="noopener" class="yt-banner-btn">Subscribe</a>
+</div>
 <section class="hero" id="top">
-  <p class="hero-eyebrow">Sports Anchor &amp; Host</p>
+  <p class="hero-eyebrow">Sports Broadcaster</p>
   <h1 class="hero-name">Collin Harmon</h1>
   <p class="hero-title">NFL <span>·</span> NBA <span>·</span> NHL <span>·</span> MLB <span>·</span> College <span>·</span> Golf <span>·</span> Tennis</p>
+  <p class="hero-yt"><a href="https://www.youtube.com/@CollinHarmonSports" target="_blank" rel="noopener">▶ @CollinHarmonSports on YouTube</a></p>
   <div class="hero-reel-wrap">
     <iframe referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ur8OimT7Lu4?rel=0&modestbranding=1" title="Collin Harmon — Main Hosting Reel" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
   </div>
@@ -186,7 +206,8 @@ footer{background:var(--black);text-align:center;padding:1.75rem;font-family:'Ba
   <div class="container">
     <p class="section-label">Get in touch</p>
     <h2 class="section-heading">Let's work together</h2>
-    <p class="contact-sub">Available for network, studio, and live event opportunities.</p>
+    <p class="contact-sub">Available for network, studio, live event opportunities, and YouTube content partnerships.</p>
+    <p class="contact-sub contact-sub-2">YouTube sponsorship and brand partnership inquiries welcome.</p>
     <div class="contact-links">
       <a href="mailto:collinharmonsports@gmail.com" class="contact-btn btn-white">Email Collin</a>
       <a href="https://www.linkedin.com/in/collin-harmon-0a233442" class="contact-btn btn-outline" target="_blank" rel="noopener">LinkedIn</a>
@@ -194,6 +215,6 @@ footer{background:var(--black);text-align:center;padding:1.75rem;font-family:'Ba
   </div>
 </section>
 
-<footer>&copy; 2026 Collin Harmon &nbsp;·&nbsp; Sports Anchor &amp; Host</footer>
+<footer>&copy; 2026 Collin Harmon &nbsp;·&nbsp; Sports Broadcaster</footer>
 </body>
 </html>
